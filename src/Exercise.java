@@ -16,11 +16,15 @@ public class Exercise {
 //        float percentage = (subject1 + subject2 + subject3 + subject4 + subject5 )/500*100;
 //        System.out.println(percentage);
 
-        Scanner sc = new Scanner( System.in);
-        System.out.println("What is your name");
-        String name = sc.next();
-        System.out.println("Hello " + name + " Have a Good Day!");
+//
+//        System.out.println("What is your name");
+//        Scanner sc = new Scanner( System.in);
+//        String name = sc.next();
+//        System.out.println("Hello " + name + " Have a Good Day!");
 
+        System.out.println("Enter a number");
+        Scanner sc = new Scanner( System.in);
+        System.out.println(sc.hasNextInt());
     }
 }
 
